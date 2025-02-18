@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form Data Ekstrakurikuler</title>
+</head>
+<body style="background-color: #f0f0f0; font-family: Times new roman; color: #6e350c;">
+  <h1 style="text-align: center; font-size: 2;">Form Data Ekstrakurikuler</h1>
+  <form>
+    <table border="2" align="center" cellpadding="1">
+      <tr>
+        <td><b>Nama Siswa</b></td>
+        <td><input type="text" name="nama" size="30"></td>
+      </tr>
+      <tr>
+        <td><b>Kelas</b></td>
+        <td>
+          <select name="kelas">
+            <option value="">Pilih Kelas</option>
+            <option value="7A">7A</option>
+            <option value="7B">7B</option>
+            <option value="7C">7C</option>
+            <option value="8A">8A</option>
+            <option value="8B">8B</option>
+            <option value="9A">9A</option>
+            <option value="9B">9B</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Alamat</b></td>
+        <td><input type="text" name="alamat" size="45"></td>
+      </tr>
+      <tr>
+        <td><b>Tempat Lahir</b></td>
+        <td><input type="text" name="tempat" size="25"></td>
+      </tr>
+      <tr>
+        <td><b>Tanggal Lahir</b></td>
+        <td><input type="date" name="tanggal"></td>
+      </tr>
+      <tr>
+        <td><b>Jenis Kelamin</b></td>
+        <td>
+          <input type="radio" name="jenis_kelamin" value="Pria"> Pria
+          <input type="radio" name="jenis_kelamin" value="Wanita"> Wanita
+        </td>
+      </tr>
+      <tr>
+        <td><b>Email</b></td>
+        <td><input type="text" name="email" size="30"></td>
+      </tr>
+      <tr>
+        <td><b>Password</b></td>
+        <td><input type="password" name="password" size="15"></td>
+      </tr>
+      <tr>
+        <td><b>Ekstrakurikuler</b></td>
+        <td>
+          <input type="checkbox" name="extra" value="Basket"> Basket
+          <input type="checkbox" name="extra" value="Pramuka"> Pramuka
+          <input type="checkbox" name="extra" value="Paduan Suara"> Paduan Suara
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" name="submit" value="OK">
+          <input type="reset" name="reset" value="Cancel">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
